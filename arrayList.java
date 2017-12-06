@@ -25,6 +25,11 @@ public class arrayList {
             if (myList[i] > max)
                 max = myList[i];
         }
-        System.out.println("Max is " + max);
+        System.out.println("Max is " + max + "\n");
+
+        System.out.println("using for each loops : ");
+        for (double element : myList) {
+            System.out.println(element);
+        }
     }
 }
